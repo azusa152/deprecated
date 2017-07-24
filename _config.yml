@@ -7,14 +7,14 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Hyde
+title:            azusa's resume
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'my test'
 url:              https://azusa152.github.io/
 baseurl:          https://azusa152.github.io/
 
 author:
-  name:           'Mark Otto'
+  name:           'azusa'
   url:            https://azusa152.github.io/
 
 paginate:         5
