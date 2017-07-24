@@ -15,7 +15,7 @@ baseurl:          https://azusa152.github.io/
 
 author:
   name:           'Mark Otto'
-  url:            https://azusa152.github.io
+  url:            https://azusa152.github.io/
 
 paginate:         5
 
@@ -23,5 +23,5 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://azusa152.github.io/
+  repo:           https://github.com/poole/hyde
 gems: jekyll-paginate
