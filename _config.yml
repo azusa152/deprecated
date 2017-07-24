@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            azusa's resume
+title:            Azusa's Resume
 tagline:          'A Jekyll theme'
-description:      'my test'
+description:      'my resume'
 url:              https://azusa152.github.io/
 baseurl:          https://azusa152.github.io/
 
@@ -22,6 +22,6 @@ paginate:         5
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+github: https://github.com/azusa152
+  repo:      https://github.com/azusa152?tab=repositories
 gems: jekyll-paginate
