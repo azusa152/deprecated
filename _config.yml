@@ -1,20 +1,21 @@
 # Dependencies
 markdown            : kramdown
-highlighter:      rouge
+redcarpet:
+  extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+highlighter         : rouge
 gems                : ["jekyll-paginate"]
+
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: false
 
 # Setup
 title:            Azusa's Note
 tagline:          'Portfolio ,experience,and skills'
 description:      'News, articles and reviews of what i learned '
-url:              https://azusa152.github.io/
 baseurl:          /
 
-author:  
+author:          Azusa Iikubo
   name:           'Azusa Iikubo'
   url:            https://azusa152.github.io/
 
