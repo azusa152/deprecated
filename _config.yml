@@ -23,5 +23,5 @@ paginate:         5
 version:          2.1.0
 
 github: https://github.com/azusa152
-  repo:      https://github.com/azusa152?tab=repositories
+  repo:      https://github.com/poole/hyde
 gems: jekyll-paginate
