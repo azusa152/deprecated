@@ -15,7 +15,7 @@ tagline:          'Portfolio ,experience,and skills'
 description:      'News, articles and reviews of what i learned '
 baseurl:          /
 
-author:          Azusa Iikubo
+author:        
   name:           'Azusa Iikubo'
   url:            https://azusa152.github.io/
 
