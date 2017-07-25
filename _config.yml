@@ -12,7 +12,7 @@ title:            Azusa's Note
 tagline:          'Portfolio ,experience,and skills'
 description:      'News, articles and reviews of what i learned '
 url:              https://azusa152.github.io/
-baseurl:          https://azusa152.github.io/
+baseurl:          /
 
 author:  
   name:           'Azusa Iikubo'
