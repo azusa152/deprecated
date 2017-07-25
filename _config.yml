@@ -8,9 +8,9 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Azusa's Resume
+title:            Azusa's Note
 tagline:          'Portfolio ,experience,and skills'
-description:      'my resume'
+description:      'News, articles and reviews of what i learned '
 url:              https://azusa152.github.io/
 baseurl:          https://azusa152.github.io/
 
@@ -24,3 +24,4 @@ paginate:         5
 version:          0.1.0
 twitter_username    : azusa
 github_username     : azusa152
+facebook_username : azusa.iikubo

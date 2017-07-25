@@ -26,9 +26,43 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Archives</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Resume</a>
+       <span class="sidebar-nav-item">
+        <ul class="list-inline text-center">
+          {% if site.twitter_username %}
+          <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}">
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x"></i>
+                  </span>
+              </a>
+          </li>
+          {% endif %}
+          {% if site.facebook_username %}
+          <li>
+              <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x"></i>
+                  </span>
+              </a>
+          </li>
+          {% endif %}
+          {% if site.github_username %}
+          <li>
+              <a href="https://github.com/{{ site.github_username }}">
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x"></i>
+                  </span>
+              </a>
+          </li>
+          {% endif %}
+        </ul>
+      </span>
+      
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
