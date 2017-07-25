@@ -3,7 +3,7 @@ markdown            : kramdown
 redcarpet:
   extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 highlighter         : rouge
-gems                : ["jekyll-paginate"]
+
 
 
 # Permalinks
@@ -23,6 +23,7 @@ paginate:         5
 
 # Custom vars
 version:          0.1.0
-twitter_username    : azusa
+
 github_username     : azusa152
 facebook_username : azusa.iikubo
+gems: jekyll-paginate
