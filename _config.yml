@@ -10,7 +10,7 @@ highlighter         : rouge
 permalink:        pretty
 
 # Setup
-title:            Azusa's Note
+title:            Azusa's World
 tagline:          'Portfolio ,experience,and skills'
 description:      'News, articles and reviews of what i learned '
 baseurl:          https://azusa152.github.io/
