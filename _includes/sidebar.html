@@ -1,5 +1,6 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
+
   <img src="/public/cup-of-hot-chocolate.png">
     <div class="sidebar-about">
       <h1>
@@ -49,6 +50,16 @@
                   <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-github fa-stack-1x"></i>
+                  </span>
+              </a>
+          </li>
+          {% endif %}
+           {% if site.linkedin__username %}
+          <li>
+              <a href="https://www.linkedin.com/in/{{ site.github_username }}">
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-linkedin fa-stack-1x"></i>
                   </span>
               </a>
           </li>
