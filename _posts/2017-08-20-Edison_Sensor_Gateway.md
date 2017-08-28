@@ -31,16 +31,18 @@ PuTTY連線
 Intel XDK 
 -------------
 Intel XDK 是 Edison 的主要開發環境，首先我們於Intel官網下載[Intel® XDK IoT Edition](https://software.intel.com/en-us/intel-xdk)以及[Bonjour Print Services](https://support.apple.com/kb/dl999?locale=zh_TW)。於Intel XDK中首先我們要尋找我們的Intel Edison的板子，發現到之後輸入Intel Edison的帳號及密碼，便可與Intel Edison建立起連線。之後我們便可上傳我們的程式專案至Intel Edison，並執行工作。
+
 【注意】:Intel Edison的板子必須與主機連上同一個區域網路。
 
 ![xdk](https://lh3.googleusercontent.com/-LDsW3DOZVhs/WaPlm3lLyfI/AAAAAAAAA58/G0QyK3HUTlkqAbNculZxwN-prmsEIvvMQCE0YBhgL/s0/xdk.png "xdk.png")
 
-Serial test
+Serial test 專案
 -------------
 開啟XDK後，載入WSN-for-IoT-Platform/Edison/SerialTest/SerialTest/的專案，載入完成後按下-Select a Device- 按鍵尋找自己的板子之後按朝下的箭頭將此專案燒入至板子。之後按下綠色的RUN箭頭執行此程式。
+
 【注意】此專案是測試序列溝通，也就是XBEE連線有沒有問題。若發現XBEE連線有問題時跑此專案後再跑原本的專案。
 
-SensorGateway
+SensorGateway 專案
 -------------
 開啟XDK後，載入WSN-for-IoT-Platform/Edison/SensorGateway/SensorGateway/的專案，載入完成後有幾項參數需要調整，如下:
 >**1.xbee setting**
@@ -55,11 +57,13 @@ var serialport = new SerialPort("/dev/ttyMFD1", {
 >**2.ip setting**
 >gateway_ip :設定成此板子的IP位置
 >ponte_ip:設定成架設PONTE的主機IP位置
+
 >**3.使用協定**
 >依據想使用的協定，將其他協定的部分註解
 >共有三種協定，分別為HTTP,CoAP,MQTT 
 
 之後按下-Select a Device- 按鍵尋找自己的板子之後確認PONTE伺服器有開，然後按朝下的箭頭將此專案燒入至板子。之後按下綠色的RUN箭頭執行此程式。
+
 【注意】若出現找不到import的錯誤，可能是reset過edison，此時進入SSH Terminal的畫面，針對import一個一個下指令，如
 
 > npm install dateformat
