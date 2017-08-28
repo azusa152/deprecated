@@ -18,6 +18,7 @@ signature  : true
 PuTTY連線
 -------------
 我們將使用PuTTY與Intel Edison 進行溝通。首先我們將Intel Edison使用USB連線至電腦，並確認他連結到哪一個序列埠(Serial Port)，之後設定鮑率(Baud rate)後便可透過PuTTY連線至Intel Edison。
+
 【注意】:Baud rate必須跟Intel Edison的鮑率必須是相同的才行。
 
 ![putty](https://lh3.googleusercontent.com/-mP-3XVfJMd4/WaPj79xbVqI/AAAAAAAAA5Q/TeMgwXyVZO8VnnFJS4_48bb-LMLTpiX2gCLcBGAs/s0/putty.png "putty.png")
