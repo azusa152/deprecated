@@ -26,14 +26,15 @@ XCTU是DIGI公司提供的免費GUI介面軟體，可以在Windows, MacOS 以及
 > ID :為PAN的ID，要在同一個PAN的XBee節點才會互相溝通。
 > 
 > DH :為目標位置的高位，通常同一家DIGI公司所生產的XBee晶片皆為0013A200，若是想要廣播或連接到不同家公司的晶片可設為0。
-
+>
 > DL: 為目標位置的低位，DIGI公司所生產的XBee晶片通常為生產時的流水號，若設定特定值代表只往那顆節點傳送訊息，若設定為FFFF的話會廣播訊息至所有節點。
 > 
 > NI:節點的名稱。
-
+>
 > AP:是否為API模式，API模式時所傳送的訊息皆包裝成一個訊息框後才傳送，若是AT模式的話是一個字一個字的傳送。於本系統我們需要調為2使訊息框可以包含跳脫字元(Escape character)。
 
 【注意】:API(Api mode)須設定為2。
+
 
 ZigBee Config 
 -------------
@@ -49,16 +50,17 @@ ZigBee Config
 >
 >SD :3
 >
->COR
+>COR:
 0013A200
 40C8D191
-
->Router1
+>
+>Router1:
 13A200
 40C8D185
-
->ROUTER3
+>
+>ROUTER3:
 13A200
+40694FA0
 
 第二個如下:
 
@@ -66,14 +68,14 @@ ZigBee Config
 SC 10
 SD 3
 
->COR2_HC (XBP24C )
+>COR2_HC 
 13A200
 40F1EC3E
-
+>
 >ROUTER1_HC
 13A200
 4071F80D
-
+>
 >ROUTER2_HC
 13A200
 4071F744
