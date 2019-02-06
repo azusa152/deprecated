@@ -19,7 +19,7 @@ XCTU
 -------------
 XCTU是DIGI公司提供的免費GUI介面軟體，可以在Windows, MacOS 以及Linux系統上執行，並設定XBee晶片。關於XBee的晶片設定，首先我們將XBee晶片接在含有FT232RL晶片的USB轉TTL串口模組上面(若沒有用FT232RL晶片的話可能會造成晶片韌體永久損壞)，之後把電壓切換至3.3V供應，並把板載調到高電平，最後接USB線至電腦上便完成。之後開啟XCTU軟體，進行設定。
 
-![enter image description here](https://lh3.googleusercontent.com/-pUywudNuYJw/WaUD3gMDjUI/AAAAAAAAA60/ZwNRFBEbQS4UUzs18veo33xC7PvhBTh1wCE0YBhgL/s0/XCTU.png "XCTU.png")
+<img class="profile" src="/public/XCTU.png">
 
 進入至XCTU軟體畫面後，首先我們要尋找我們XBee晶片所連接的序列埠，之後便可進入設定畫面。首先我們先把XBee晶片的韌體更新至最新版本，之後依據此XBee晶片要擔任Coordinator 或 Router而燒入不同韌體。重要的參數如下:
 
