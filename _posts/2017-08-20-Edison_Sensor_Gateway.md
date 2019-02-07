@@ -7,13 +7,14 @@ author     : "azusa"
 tags       : IntelEdison IoT
 comments   : true
 signature  : true
+tags       : IoT,Intel Edison
 ---
 
 組裝 Sensor_Gateway
 -------------
 首先我們將SD卡大小Intel Edison主體裝設至Edison Arduino kit上面，使他可以掛載通用Arduino的擴充版。之後我們將XBee晶片安裝在XBee Arduino 擴充版，最後再把此擴充版安裝到Edison Arduino kit上便完成我們的Sensor Gateway的組裝
 
-![edison](https://lh3.googleusercontent.com/-nl8f37SQYk4/WaPkFgaavRI/AAAAAAAAA5Y/5XV-i2VB4Wks-d-BFsu4GzKPAVqRWmZCgCLcBGAs/s0/edison+assemble.jpg "edison assemble.jpg")
+<img height="100%" width="100%" class="profile" src="/public/edison assemble.jpg" >
 
 PuTTY連線
 -------------
@@ -21,12 +22,12 @@ PuTTY連線
 
 【注意】:Baud rate必須跟Intel Edison的鮑率必須是相同的才行。
 
-![putty](https://lh3.googleusercontent.com/-mP-3XVfJMd4/WaPj79xbVqI/AAAAAAAAA5Q/TeMgwXyVZO8VnnFJS4_48bb-LMLTpiX2gCLcBGAs/s0/putty.png "putty.png")
+<img height="100%" width="100%" class="profile" src="/public/putty.png" >
 
 連線至Intel Edison後，我們可以輸入Intel Edison的帳號以及密碼登入至Intel Edison的系統並進行各項設定，如調整Wi-Fi設定 
 > Configure_edison --wifi
 
-![edison login](https://lh3.googleusercontent.com/-hGCtrkhfEw8/WaPkbeQ4A6I/AAAAAAAAA5g/Zvh0MF5AvZsfREMkBA2Oxq1GzIfJ4hyGwCE0YBhgL/s0/edison+login.png "edison login.png")
+<img height="100%" width="100%" class="profile" src="/public/edison login.png" >
 
 
 Intel XDK 
@@ -35,7 +36,7 @@ Intel XDK 是 Edison 的主要開發環境，首先我們於Intel官網下載[In
 
 【注意】:Intel Edison的板子必須與主機連上同一個區域網路。
 
-![xdk](https://lh3.googleusercontent.com/-LDsW3DOZVhs/WaPlm3lLyfI/AAAAAAAAA58/G0QyK3HUTlkqAbNculZxwN-prmsEIvvMQCE0YBhgL/s0/xdk.png "xdk.png")
+<img height="100%" width="100%" class="profile" src="/public/xdk.png" >
 
 Serial test 專案
 -------------

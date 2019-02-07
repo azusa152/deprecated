@@ -6,6 +6,7 @@ date       : 2017-08-21 00:00:00
 author     : "azusa"
 comments   : true
 signature  : true
+tags       : IoT,Arduino
 ---
 
 在這一篇文章當中，我將介紹如何安裝我所開發系統中XBEE的設定
@@ -15,7 +16,7 @@ signature  : true
 -------------
 本系統之感測節點是由Arduino打造，其接線圖如下:
 
-<img class="profile" src="/public/sensornode.png" >
+<img height="100%" width="100%" class="profile" src="/public/sensornode.png" >
 
 首先我們先將Arduino掛載XBee擴充版，並依據需要的功能外掛其他物品。如現在要做一個溫度與濕度的感測節點，則在上述的板子上外加溫溼度感測器以及蜂鳴器，並燒入溫度與濕度感測節點的程式 [WSN-for-IoT-Platform/Arduino/SensorNode/SensorNode/SensorNode.ino](https://github.com/azusa152/WSN-for-IoT-Platform/blob/master/Arduino/SensorNode/SensorNode/SensorNode.ino)。
 
@@ -28,7 +29,7 @@ Arduino Software IDE，是一套Arduino所提供的以Java編寫的跨平台應�
 
 我們要將程式燒入時，首先要將Arduino用USB連接至電腦，並開啟Arduino Software IDE，並設定所使用的Arduino版本以及連接的序列埠後燒入程式碼即可。當Arduino燒入程式後，每次插上電源便會自動執行程式的動作，不需要透過Arduino Software IDE操作
 
-<img class="profile" src="/public/sensornode.png" >
+<img height="100%" width="100%" class="profile" src="/public/sensornode.png" >
 
 
 

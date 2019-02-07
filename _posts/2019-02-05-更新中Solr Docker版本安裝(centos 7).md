@@ -1,3 +1,14 @@
+---
+layout: post
+title: Solr Docker版本安裝(centos 7)
+subtitle   : "Solr Docker"
+date       : 2019-02-05 00:00:00
+author     : "azusa"
+comments   : true
+signature  : true
+tags       : IoT,Intel Edison
+---
+
 
 <更新中>Solr Docker版本安裝(centos 7)
 ---------------
