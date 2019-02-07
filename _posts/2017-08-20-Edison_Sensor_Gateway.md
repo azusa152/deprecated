@@ -9,12 +9,13 @@ comments   : true
 signature  : true
 tags       : IoT,Intel Edison
 ---
+#photo {  width: 100%;  height: auto; }  
 
 組裝 Sensor_Gateway
 -------------
 首先我們將SD卡大小Intel Edison主體裝設至Edison Arduino kit上面，使他可以掛載通用Arduino的擴充版。之後我們將XBee晶片安裝在XBee Arduino 擴充版，最後再把此擴充版安裝到Edison Arduino kit上便完成我們的Sensor Gateway的組裝
 
-<img height="100%" width="100%" class="profile" src="/public/edison assemble.jpg" >
+<img  class="profile" src="/public/edison assemble.jpg" id="photo" >
 
 PuTTY連線
 -------------

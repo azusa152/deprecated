@@ -29,7 +29,7 @@ Arduino Software IDE，是一套Arduino所提供的以Java編寫的跨平台應�
 
 我們要將程式燒入時，首先要將Arduino用USB連接至電腦，並開啟Arduino Software IDE，並設定所使用的Arduino版本以及連接的序列埠後燒入程式碼即可。當Arduino燒入程式後，每次插上電源便會自動執行程式的動作，不需要透過Arduino Software IDE操作
 
-<img height="100%" width="100%" class="profile" src="/public/sensornode.png" >
+<img height="100%" width="100%" class="profile" src="/public/arudino ide.png" >
 
 
 
