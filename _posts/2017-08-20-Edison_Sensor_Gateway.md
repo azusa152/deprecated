@@ -9,7 +9,7 @@ comments   : true
 signature  : true
 tags       : IoT,Intel Edison
 ---
-#photo {  width: 100%;  height: auto; }  
+
 
 組裝 Sensor_Gateway
 -------------
